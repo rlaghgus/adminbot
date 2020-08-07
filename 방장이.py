@@ -2,6 +2,7 @@ import asyncio
 import discord
 from discord.ext import commands
 import random
+import os
 
 app = commands.Bot(command_prefix='방장아')
 
@@ -192,6 +193,6 @@ import re
 
 
 
-
-app.run("NzIyMDYzNjM2NDI3OTY0NTE3.XudoKg.2ZX3CZBPyEislon9IbHgeTK7iKg")
+access_token = os.environ["BOT_TOKEN"]
+app.run(access_token)
 
