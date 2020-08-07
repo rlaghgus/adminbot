@@ -193,6 +193,6 @@ import re
 
 
 
-access_token = os.environ["BOT_TOKEN"]
-app.run(access_token)
+
+app.run(NzIyMDYzNjM2NDI3OTY0NTE3.XudoKg.6iwceB65Yf9uTpdAC00snp_0ds0)
 
